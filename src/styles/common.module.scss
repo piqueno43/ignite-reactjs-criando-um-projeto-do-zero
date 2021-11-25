@@ -1,1 +1,57 @@
-// TODO
+.container {
+  min-width: 1120px;
+  margin: 0 auto;
+}
+.containerFluid {
+  width: 100%;
+  margin: 0 auto;
+}
+.content {
+  padding: 2rem;
+  max-width: 768px;
+  margin: 0 auto;
+
+  a {
+    color: var(--pink-500);
+    text-decoration: none;
+  }
+}
+
+.post {
+  & + .post {
+    margin-top: 2rem;
+  }
+}
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  color: var(--gray-100);
+}
+.description {
+  @extend .title;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  color: var(--gray-300);
+  margin-top: 8px;
+}
+
+.info {
+  @extend .description;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--gray-500);
+  margin-top: 24px;
+
+  svg {
+    margin-right: 8px;
+  }
+
+  span {
+    margin-left: 24px;
+  }
+}

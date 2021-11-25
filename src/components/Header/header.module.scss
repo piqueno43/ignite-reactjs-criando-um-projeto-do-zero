@@ -1,1 +1,27 @@
 // TODO
+.headerContainer {
+  height: 5rem;
+  min-width: 1120px;
+  margin: 0 auto;
+
+  &.normal {
+    height: 5rem;
+  }
+
+  &.large {
+    height: 6rem;
+  }
+}
+
+.headerContent {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 4rem;
+}
+
+
