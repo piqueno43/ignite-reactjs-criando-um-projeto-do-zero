@@ -32,6 +32,7 @@
   ],
   "rules": {
     "camelcase": "off",
+    "react-no-danger": false,
     "import/no-duplicates": "off",
     "react/jsx-props-no-spreading": "off",
     "prettier/prettier": "error",
